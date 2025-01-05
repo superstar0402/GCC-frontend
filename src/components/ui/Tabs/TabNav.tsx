@@ -40,8 +40,8 @@ const TabNav = forwardRef<HTMLDivElement, TabNavProps>((props, ref) => {
         'tab-nav',
         `tab-nav-${variant}`,
         isSelected &&
-            `tab-nav-active text-${color} dark:text-${themeColor}-100`,
-        isSelected && variant === 'underline' && `border-${color}`,
+            `tab-nav-active text-[#1C4CF6] dark:text-${themeColor}-100`,
+        isSelected && variant === 'underline' && `border-[#1C4CF6]`,
         isSelected &&
             variant === 'pill' &&
             `bg-${themeColor}-50 dark:bg-${color} dark:text-gray-100`,

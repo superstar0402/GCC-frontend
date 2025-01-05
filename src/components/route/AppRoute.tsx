@@ -52,3 +52,5 @@ const AppRoute = <T extends Record<string, unknown>>({
 }
 
 export default AppRoute
+
+

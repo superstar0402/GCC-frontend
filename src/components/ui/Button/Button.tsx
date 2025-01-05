@@ -184,7 +184,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
     const classes = classNames(
         defaultClass,
         btnColor(),
-        `radius-${shape}`,
+        // `radius-${shape}`,
         getButtonSize(),
         className,
         block ? 'w-full' : ''
