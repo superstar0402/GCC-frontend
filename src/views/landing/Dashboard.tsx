@@ -25,11 +25,15 @@ const Dashboard = () => {
 
                 </div>
 
-                <div className='flex flex-row justify-between mt-[120px]'>
-                    <img src="./public/img/landing/binance.png" alt=''/>
-                    <img src="./public/img/landing/novartis.png" alt=''/>
-                    <img src="./public/img/landing/alphabet.png" alt=''/>
-                    <img src="./public/img/landing/medtronic.png" alt=''/>
+                <div className='flex flex-row justify-center gap-[15%] mt-[120px] w-[100%] px-[30px] pb-[60px]'>
+                    <div className='w-[50%] gap-[20%] flex justify-center '>
+                       <img src="./public/img/landing/binance.png" className='w-[35%]' alt=''/>
+                       <img src="./public/img/landing/novartis.png" className='w-[35%]' alt=''/>
+                    </div>
+                    <div className='w-[50%] gap-[20%] flex justify-center'>
+                        <img src="./public/img/landing/alphabet.png" className='w-[35%]' alt=''/>
+                        <img src="./public/img/landing/medtronic.png" className='w-[35%]' alt=''/>
+                    </div>
                 </div>
             </div>
 
