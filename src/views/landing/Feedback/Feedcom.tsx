@@ -1,7 +1,7 @@
 const Feedcom = ({item}: any) => {
     return(
         <>
-            <div className="py-[24px] px-[16px] bg-[#FFFFFF0D] rounded-[8px] ">
+            <div className="py-[24px] px-[16px] bg-[#FFFFFF0D] rounded-[8px] w-[33.3%]">
                 <div className="flex gap-[10%] ">
                     <img src={item.img} alt=""/>
                     <div>
@@ -21,3 +21,6 @@ const Feedcom = ({item}: any) => {
 }
 
 export default Feedcom;
+
+
+
