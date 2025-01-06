@@ -2,7 +2,6 @@ import Header from './Header';
 import Dashboard from './Dashboard';
 import Works from "./Works"
 import Feedback from './Feedback';
-import Contact from './Contact';
 import Footer from './Footer';
 import About from "./About";
 
@@ -15,7 +14,6 @@ const Landing = () => {
                 <Works/>
                 <About/>
                 <Feedback/>
-                <Contact/>
                 <Footer/>
 
 

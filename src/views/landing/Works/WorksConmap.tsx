@@ -15,7 +15,6 @@ const WorksConmap = ({item}: any) => {
                             {item.title}
                         </p>
                     </div>
-              
             </div>
             <div className="text-[16px] text-[#FFFFFF] font-Geist w-full pt-[20px]">
                 {item.text}

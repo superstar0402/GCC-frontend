@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <>
-            <div className=" pt-[60px] px-[128px] pb-[24px]">
+            <div className=" pt-[24px] px-[128px] pb-[24px] bg-[#00000099] opacity-0.6">
                 <div className="flex   gap-[10%]">
                     <div className="bg-[] w-[33.3%]">
                         <img src="./public/img/landing/GCC.png" alt="" />
