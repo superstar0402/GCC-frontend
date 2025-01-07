@@ -1,7 +1,7 @@
 import Tabs from '@/components/ui/Tabs';
 import Button from '@/components/ui/Button';
 
-const { TabNav, TabList } = Tabs;
+const { TabNav, TabList,TabContent  } = Tabs;
 
 const Header = () => {
     const handleScroll = (offset: number) => {
@@ -13,18 +13,18 @@ const Header = () => {
 
     return (
         <>
-            <div className="flex justify-between items-center h-[88px] bg-[#13131B] pl-[128px] pr-[128px] drop-shadow-2xl">
-                <div>
+            <div className="flex justify-between items-center h-[88px] bg-[#13131B]   drop-shadow-2xl">
+                <div className=''>
                     <p className='text-4xl font-bold text-[#1C4CF6]'>GCC</p>
                     <p className='text-white font-bold'>Combinator</p>
                 </div>
-                <div className='flex flex-row gap-[60px]'>
-                    <div>
+                <div className='flex flex-row gap-[50px]'>
+                    <div className='hidden md:block xl:w-[100%]'>
                         <Tabs defaultValue="tab1">
-                            <TabList className='gap-[60px]'>
+                            <TabList className='  xl:gap-[60px]'>
                                 <TabNav 
                                     value="tab1" 
-                                    className='text-white text-[16px]'
+                                    className='text-white text-[14px] lg:text-[16px]'
                                     onClick={() => handleScroll(0)} 
 
                                 >
@@ -32,14 +32,14 @@ const Header = () => {
                                 </TabNav>
                                 <TabNav 
                                     value="tab2" 
-                                    className='text-white text-[16px]'
+                                    className='text-white text-[14px] lg:text-[16px]'
                                     onClick={() => handleScroll(1100)} 
                                 >
                                     How it works
                                 </TabNav>
                                 <TabNav 
                                     value="tab3" 
-                                    className='text-white text-[16px]'
+                                    className='text-white text-[14px] lg:text-[16px]'
                                     onClick={() => handleScroll(3000)} // Scroll to top for Contact Us
                                 >
                                     Contact Us
@@ -56,7 +56,7 @@ const Header = () => {
                         </Button>    
                         <TabNav 
                             value="solid" 
-                            className='text-white text-[14px]' 
+                            className='text-white text-[14px]  w-[80px]' 
                             onClick={() => handleScroll(0)} // Scroll to top for Log in
                         >
                             Log in

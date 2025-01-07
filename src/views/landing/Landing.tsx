@@ -8,16 +8,16 @@ import About from "./About";
 const Landing = () => {
     return (
         <>
-            <div className="bg-[#13131B]">
+        <div>
+            <div className="bg-[#13131B] px-[70px] lg:px-[128px]">
                 <Header/>
                 <Dashboard/>
                 <Works/>
                 <About/>
                 <Feedback/>
-                <Footer/>
-
-
             </div>
+            <Footer/>
+        </div>
             {/* <LandingForm disableSubmit={false} /> */}
         </>
     )
