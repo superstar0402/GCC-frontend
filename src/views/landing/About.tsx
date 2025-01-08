@@ -30,7 +30,7 @@ const About = () => {
 
                 <div className=' flex flex-col lg:flex-row gap-[5%] w-full'>
                     <div className='w-[100%] lg:w-[25%] font-[Geist] text-[#FFFFFF] font-bold text-[20px]  flex flex-col justify-center items-center pb-[30px] lg:pb-[0px]'>                     
-                        <img src='./public/img/landing/CEO.jpg' className='w-[213px] pl-[5%] ' alt=''/>
+                        <img src='./public/img/landing/CEO.png' className='w-[213px] pl-[5%] ' alt=''/>
                         <p className='pt-[16px] pb-[8px]'>Dr. Abdulmohsen Hameed</p>
                         <p className='text-[16px]'>CEO & Founder of GCC Combinator </p>
                     </div>

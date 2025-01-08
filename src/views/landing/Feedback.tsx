@@ -5,7 +5,7 @@ import Feedcom from "./Feedback/Feedcom";
 const Feedback = () => {
     const ContentList = [
         {
-            img: "/img/landing/man1.svg",
+            img: "/img/landing/man2.svg",
             title: "John D.",
             role: "CEO of Startup",
             text: "GCC Combinator has transformed my investment approach. I’ve discovered innovative healthcare projects that I’m proud to support. The platform is user-friendly and provides all the information I need to make informed decisions!"
@@ -17,7 +17,7 @@ const Feedback = () => {
             text: "GCC Combinator has transformed my investment approach. I’ve discovered innovative healthcare projects that I’m proud to support."
         },
         {
-            img: "/img/landing/man1.svg",
+            img: "/img/landing/man2.svg",
             title: "John D.",
             role: "CEO of Startup",
             text: "GCC Combinator has transformed my investment approach. I’ve discovered innovative healthcare projects that I’m proud to support. The platform is user-friendly and provides all the information I need to make informed decisions!"
@@ -29,13 +29,13 @@ const Feedback = () => {
             text: "GCC Combinator has transformed my investment approach. I’ve discovered innovative healthcare projects that I’m proud to support."
         },
         {
-            img: "/img/landing/man1.svg",
+            img: "/img/landing/man2.svg",
             title: "John D.",
             role: "CEO of Startup",
             text: "GCC Combinator has transformed my investment approach. I’ve discovered innovative healthcare projects that I’m proud to support."
         },
         {
-            img: "/img/landing/man6.svg",
+            img: "/img/landing/man1.svg",
             title: "Diana K.",
             role: "Investor",
             text: "GCC Combinator has been a game changer for my investment strategy."
