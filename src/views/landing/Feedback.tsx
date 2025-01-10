@@ -61,14 +61,26 @@ const Feedback = () => {
                 <div className="relative ">
                     <div className="flex gap-[2%] pb-[68px]">
                         {ContentList.slice(currentIndex, currentIndex + 3).map((item, index) => (
-                            <Feedcom item={item} key={index} />
+                            <Feedcom
+                                item={item}
+                                key={index}
+                            />
                         ))}
                     </div>
-                    <button onClick={preview} className="absolute top-[138px] left-[-80px] bg-[#FFFFFF0D] text-white p-[24px] rounded-full">
-                        <img src="./public/img/landing/vector.svg" alt="" />
+                    <button
+                        onClick={preview}
+                        className="absolute top-[138px] left-[-80px] bg-[#FFFFFF0D] text-white p-[24px] rounded-full"
+                    >
+                        <img
+                            src="./public/img/landing/vector.svg"
+                            alt=""
+                        />
                     </button>
                     <button onClick={next} className="absolute top-[138px] right-[-80px] bg-[#FFFFFF0D] text-white p-[24px] rounded-full">
-                        <img src="./public/img/landing/vector1.svg" alt="" />
+                        <img
+                            src="./public/img/landing/vector1.svg"
+                            alt=""
+                        />
                     </button>
                 </div>
             </div>

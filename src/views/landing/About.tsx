@@ -2,7 +2,7 @@ import Button from '@/components/ui/Button'
 
 const About = () => {
 
-    return(
+    return (
         <>
             <div className="mt-[60px] pb-[80px] ">
 
@@ -11,7 +11,7 @@ const About = () => {
                         About <a className="text-[#1C4CF6] pl-3">Us</a>
                     </p>
                 </div>
-             
+
                 <p className="text-[16px] font-[Geist] text-[#FFFFFF]">Welcome to GCC Combinator, where innovation meets investment! We are a pioneering platform designed to bridge the gap between visionary medical startups and crypto investors. Our mission is to empower groundbreaking ideas in the healthcare sector by providing a unique space for startups to showcase their projects and for investors to discover and support the next big thing in medical technology.
                 </p>
 
@@ -19,8 +19,8 @@ const About = () => {
                     <p className="text-[20px] font-bold pb-[24px]">Our Vision</p>
                     <p>At GCC Combinator, we believe that the future of healthcare lies in collaboration and innovation. By connecting crypto investors with promising medical startups, we aim to foster a community that drives advancements in health technology and improves patient outcomes.
                     </p>
-                    <Button 
-                        variant="solid" 
+                    <Button
+                        variant="solid"
                         className='w-[278px] bg-[#1C4CF6] h-[40px] rounded-[8px] mt-[24px] text-[14px]'>
                         Explore Our Whitepaper
                     </Button>
@@ -29,8 +29,12 @@ const About = () => {
                 <p className='pb-[24px] mt-[36px] font-[Geist] text-[#FFFFFF] font-bold text-[20px]' >Meet Our CEO & Founder</p>
 
                 <div className=' flex flex-col lg:flex-row gap-[5%] w-full'>
-                    <div className='w-[100%] lg:w-[25%] font-[Geist] text-[#FFFFFF] font-bold text-[20px]  flex flex-col justify-center items-center pb-[30px] lg:pb-[0px]'>                     
-                        <img src='./public/img/landing/CEO.png' className='w-[213px] pl-[5%] ' alt=''/>
+                    <div className='w-[100%] lg:w-[25%] font-[Geist] text-[#FFFFFF] font-bold text-[20px]  flex flex-col justify-center items-center pb-[30px] lg:pb-[0px]'>
+                        <img
+                            src='./public/img/landing/CEO.png'
+                            className='w-[213px] pl-[5%] '
+                            alt=''
+                        />
                         <p className='pt-[16px] pb-[8px]'>Dr. Abdulmohsen Hameed</p>
                         <p className='text-[16px]'>CEO & Founder of GCC Combinator </p>
                     </div>
@@ -49,8 +53,8 @@ const About = () => {
                 </div>
 
             </div>
-        
-        
+
+
         </>
     )
 }

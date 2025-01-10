@@ -34,7 +34,11 @@ const WorksConmap = ({ item }: any) => {
     return (
         <div className="w-full md:w-[48%] lg:w-[23%] bg-[#13131B] mb-4 p-4 rounded-lg">
             <div className="flex justify-center items-center pb-[40px]">
-                <img src={item.img} alt={item.title} className="flex justify-center items-center" />
+                <img 
+                    src={item.img} 
+                    className="flex justify-center items-center" 
+                    alt={item.title} 
+                />
             </div>
             <div className="flex w-full gap-[20px]">
                 <div className="w-[10%]">

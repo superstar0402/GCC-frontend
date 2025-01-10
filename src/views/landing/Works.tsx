@@ -7,7 +7,7 @@ const Works = () => {
                 <div className="pb-[80px]">
                     <p className="text-[40px] flex justify-center font-[Geist] font-bold text-[#FFFFFF] ">How it Works</p>
                 </div>
-                <WorksContent/>
+                <WorksContent />
             </div>
 
         </>

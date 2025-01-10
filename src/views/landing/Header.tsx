@@ -1,7 +1,7 @@
 import Tabs from '@/components/ui/Tabs';
 import Button from '@/components/ui/Button';
 
-const { TabNav, TabList,TabContent  } = Tabs;
+const { TabNav, TabList, TabContent } = Tabs;
 
 const Header = () => {
     const handleScroll = (offset: number) => {
@@ -22,23 +22,23 @@ const Header = () => {
                     <div className='hidden md:block xl:w-[100%]'>
                         <Tabs defaultValue="tab1">
                             <TabList className='  xl:gap-[60px]'>
-                                <TabNav 
-                                    value="tab1" 
+                                <TabNav
+                                    value="tab1"
                                     className='text-white text-[14px] lg:text-[16px]'
-                                    onClick={() => handleScroll(0)} 
+                                    onClick={() => handleScroll(0)}
 
                                 >
                                     Home
                                 </TabNav>
-                                <TabNav 
-                                    value="tab2" 
+                                <TabNav
+                                    value="tab2"
                                     className='text-white text-[14px] lg:text-[16px]'
-                                    onClick={() => handleScroll(1100)} 
+                                    onClick={() => handleScroll(1100)}
                                 >
                                     How it works
                                 </TabNav>
-                                <TabNav 
-                                    value="tab3" 
+                                <TabNav
+                                    value="tab3"
                                     className='text-white text-[14px] lg:text-[16px]'
                                     onClick={() => handleScroll(3000)} // Scroll to top for Contact Us
                                 >
@@ -48,15 +48,15 @@ const Header = () => {
                         </Tabs>
                     </div>
                     <div className='flex flex-row gap-10 items-center'>
-                        <Button 
-                            variant="solid"  
+                        <Button
+                            variant="solid"
                             className='rounded-[10px] text-[14px] bg-[#1C4CF6]'
                         >
                             Join Us
-                        </Button>    
-                        <TabNav 
-                            value="solid" 
-                            className='text-white text-[14px]  w-[80px]' 
+                        </Button>
+                        <TabNav
+                            value="solid"
+                            className='text-white text-[14px]  w-[80px]'
                             onClick={() => handleScroll(0)} // Scroll to top for Log in
                         >
                             Log in

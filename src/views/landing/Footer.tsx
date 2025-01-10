@@ -5,10 +5,13 @@ const Footer = () => {
             <div className=" pt-[24px]  pb-[24px] bg-[black] px-[70px] lg:px-[128px] ">
                 <div className="flex flex-wrap justify-between gap-[10%] w-full">
                     <div className=" w-[40%] sm:w-[25%]">
-                        <img src="./public/img/landing/GCC.png" alt="" />
-                        <p  className="w-[80%] text-[14px] font-[Geist] text-[#FFFFFF] pt-[24px]">Join GCC Combinator, the premier platform that bridges crypto investors with groundbreaking medical startups.</p>
+                        <img
+                            src="./public/img/landing/GCC.png"
+                            alt=""
+                        />
+                        <p className="w-[80%] text-[14px] font-[Geist] text-[#FFFFFF] pt-[24px]">Join GCC Combinator, the premier platform that bridges crypto investors with groundbreaking medical startups.</p>
                     </div>
-                    
+
                     <div className="w-[40%] sm:w-[25%] text-[16px] font-[Geist] text-[#FFFFFF]">
                         <p className="pb-[32px] ">FAQ</p>
                         <p className="pb-[24px] ">Account</p>
@@ -19,15 +22,24 @@ const Footer = () => {
                     <div className="w-[30%] sm:w-[25%] ">
                         <p className="text-[16px] font-[Geist] text-[#FFFFFF] pb-[32px] ">Contact Us</p>
                         <div className="pb-[24px] flex gap-[12px]">
-                            <img src="./public/img/landing/message.svg" alt="" />
+                            <img
+                                src="./public/img/landing/message.svg"
+                                alt=""
+                            />
                             <p className="text-[16px] text-[#FFFFFF] font-[Geist]">support.gcc@ example.com</p>
                         </div>
                         <div className="pb-[24px] flex gap-[12px]">
-                            <img src="./public/img/landing/phone.svg" alt="" />
+                            <img
+                                src="./public/img/landing/phone.svg"
+                                alt=""
+                            />
                             <p className="text-[16px] text-[#FFFFFF] font-[Geist]">+1 (234) 567 8900</p>
                         </div>
                         <div className="flex gap-[12px]">
-                            <img src="./public/img/landing/telegram.svg" alt="" />
+                            <img
+                                src="./public/img/landing/telegram.svg"
+                                alt=""
+                            />
                             <p className="text-[16px] text-[#FFFFFF] font-[Geist]">https://t.me/gcc</p>
                         </div>
                     </div>
@@ -52,7 +64,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-           
+
             </div>
 
 
