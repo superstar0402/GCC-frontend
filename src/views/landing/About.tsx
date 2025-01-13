@@ -32,13 +32,13 @@ const About = () => {
                     <div className='w-[100%] lg:w-[25%] font-[Geist] text-[#FFFFFF] font-bold text-[20px]  flex flex-col justify-center items-center pb-[30px] lg:pb-[0px]'>
                         <img
                             src='./public/img/landing/CEO.png'
-                            className='w-[213px] pl-[5%] '
+                            className='w-[213px] h-[260px] pl-[5%] '
                             alt=''
                         />
                         <p className='pt-[16px] pb-[8px]'>Dr. Abdulmohsen Hameed</p>
                         <p className='text-[16px]'>CEO & Founder of GCC Combinator </p>
                     </div>
-                    <div className=' w-[100%] lg:w-[75%] font-[Inter] italic text-[16px] text-[#FFFFFF]'>
+                    <div className=' w-[100%] lg:w-[75%] font-[Geist] font-bold italic text-[16px] text-[#FFFFFF]'>
                         <p>"Welcome to GCC Combinator! I am thrilled to introduce you to our platform, where we harness the power of blockchain technology to revolutionize the way medical startups connect with investors.<br></br>
                             In today's fast-paced world, the healthcare industry is in desperate need of innovative solutions. Our mission is to create a seamless environment where groundbreaking ideas can flourish. We provide medical startups with the opportunity to launch their projects and tokens, enabling them to reach the investors who believe in their vision.
                             As an investor, you have the chance to be part of this transformative journey. Our platform allows you to explore a diverse range of projects, each with the potential to make a significant impact on the healthcare landscape. By investing in these startups, you are not just supporting their growth; you are contributing to a healthier future for all.<br></br>
