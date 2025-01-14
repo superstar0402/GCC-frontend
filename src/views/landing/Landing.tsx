@@ -4,6 +4,7 @@ import Works from "./Works"
 import Feedback from './Feedback';
 import Footer from './Footer';
 import About from "./About";
+import Benefit from './Benefit';
 
 const Landing = () => {
     return (
@@ -13,6 +14,7 @@ const Landing = () => {
                 <Header/>
                 <Dashboard/>
                 <Works/>
+                <Benefit/>
                 <About/>
                 <Feedback/>
             </div>

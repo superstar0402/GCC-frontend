@@ -56,7 +56,7 @@ const Feedback = () => {
         <>
             <div className="mt-[60px]  pb-[180px]">
                 <p className="text-[40px] pt-[120px] font-[Geist] text-[#FFFFFF] font-bold flex justify-center pb-[120px] ">
-                    What Our Clients <a className="text-[#1C4CF6] pl-[15px]">Say</a>
+                    What Our Clients <a className="text-[#1C4CF6] pl-[20px]">Say</a> 
                 </p>
                 <div className="relative ">
                     <div className="flex gap-[2%] pb-[68px]">
@@ -89,4 +89,6 @@ const Feedback = () => {
 };
 
 export default Feedback;
+
+
 

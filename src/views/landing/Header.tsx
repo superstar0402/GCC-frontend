@@ -207,13 +207,13 @@ const Header = () => {
                                     </li>
                                     <li 
                                         className='menu-item menu-item-dark menu-item-hoverable border-4 border-gray-950 mb-1 px-0 h-[35px] hover:bg-red-500 cursor-pointer' 
-                                        onClick={() => handleScroll(1100)}
+                                        onClick={() => handleScroll(1600)}
                                     >
                                         <span className='flex gap-2 items-center w-full text-black justify-center hover:text-white'>How it works</span>
                                     </li>
                                     <li 
                                         className='menu-item menu-item-dark menu-item-hoverable border-4 border-gray-950 mb-1 px-0 h-[35px] hover:bg-red-500 cursor-pointer' 
-                                        onClick={() => handleScroll(3000)}
+                                        onClick={() => handleScroll(5300)}
                                     >
                                         <span className='flex gap-2 items-center w-full text-black justify-center hover:text-white'>Contact Us</span>
                                     </li>

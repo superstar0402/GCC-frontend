@@ -46,7 +46,7 @@ const About = () => {
                         <div className='mt-[39px] flex gap-[12px]'>
                             <img src="./public/img/landing/facebook.png" alt="" />
                             <img src="./public/img/landing/linkedin.png" alt="" />
-                            <img src="./public/img/landing/youtebu.png" alt="" />
+                            <img src="./public/img/landing/youtube.png" alt="" />
                             <img src="./public/img/landing/twitter.png" alt="" />
                         </div>
                     </div>
