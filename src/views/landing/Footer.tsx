@@ -83,15 +83,17 @@ const Footer = () => {
             <div className="py-[24px] bg-[black] px-[70px] lg:px-[128px]">
                 <div className="flex flex-col sm:flex-row justify-between gap-[10%] w-full">
                     {/* First Section */}
-                    <div className="w-full sm:w-[30%] pb-[70px] sm:pb-[0px] flex flex-col">
-                        <img
-                            src="./public/img/landing/GCC.png"
-                            className="w-[112px] mx-auto sm:mx-0"
-                            alt=""
-                        />
-                        <p className="w-[70%] text-[14px] font-[Geist] text-[#FFFFFF] pt-[24px] mx-auto sm:mx-0">
-                            Join GCC Combinator, the premier platform that bridges crypto investors with groundbreaking medical startups.
-                        </p>
+                    <div className="w-full sm:w-[30%] pb-[70px] sm:pb-[0px] justify-center items-center ">
+                        <div className="">
+                            <img
+                                src="./public/img/landing/GCC.png"
+                                className="w-[112px]  mx-auto sm:mx-0  "
+                                alt=""
+                            />
+                            <p className="w-[70%] sm:w-full xl:w-[80%] sm:text-[14px] font-Geist text-[#FFFFFF] pt-[24px] mx-auto sm:mx-0 ">
+                                Join GCC Combinator, the premier platform that bridges crypto investors with groundbreaking medical startups.
+                            </p>
+                        </div>
                     </div>
 
                     {/* Second Section */}
@@ -145,7 +147,7 @@ const Footer = () => {
                             <img src="./public/img/landing/twitter.png" alt="" />
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </>
     );

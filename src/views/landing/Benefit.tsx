@@ -6,8 +6,8 @@ const Benefit = () => {
 
         <>
 
-            <div className="pt-[120px] h-[100%]  ">
-                <p className="pb-[80px] font-Geist text-[40px] font-bold text-[#FFFFFF] text-center">
+            <div className="pt-[40px] md:pt-[120px] h-[100%]  ">
+                <p className="pb-[20px] sm:pb-[80px] font-Geist text-[30px] sm:text-[40px] font-bold text-[#FFFFFF] text-center">
                     <a className="text-[#1C4CF6] ">
                         Benefits
                     </a> of Joining Us
@@ -78,7 +78,7 @@ const Benefit = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pt-[80px] flex justify-center md:justify-end pb-[120px]'>
+                <div className='pt-[80px] flex justify-center md:justify-end pb-[0px] md:pb-[120px]'>
                     <Button
                         variant="solid"
                         className='rounded-[10px] text-[14px] bg-[#1C4CF6] w-[200px] h-[40px] justify-center items-center flex'
