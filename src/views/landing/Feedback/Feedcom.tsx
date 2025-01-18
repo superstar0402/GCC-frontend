@@ -1,5 +1,5 @@
 
-const Feedcom = ({ item }: any) => {
+const Feedcom = ({ item }: any, {key}: any) => {
     return (
         <>
             <div className="py-[24px] px-[16px] bg-[#FFFFFF0D] rounded-[8px] w-full  h-[276px] overflow-y-hidden  "> {/* Fixed height set here */}

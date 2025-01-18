@@ -95,13 +95,17 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
+                    <div className="block sm:hidden w-[100%] h-[2px] bg-white mb-[20px]">
+                    </div>
 
                     {/* Second Section */}
-                    <div className="w-full sm:w-[30%] pb-[70px] sm:pb-[0px] flex flex-col text-center sm:text-left text-[16px] font-[Geist] text-[#FFFFFF]">
+                    <div className="w-full sm:w-[30%] pb-[32px] sm:pb-[0px] flex flex-col text-center sm:text-left text-[16px] font-[Geist] text-[#FFFFFF]">
                         <p className="pb-[32px]">FAQ</p>
                         <p className="pb-[24px]">Account</p>
                         <p className="pb-[24px]">How to publish projects</p>
                         <p>Investment</p>
+                    </div>
+                    <div className="block sm:hidden w-[100%] h-[2px] bg-white mb-[20px]">
                     </div>
 
                     {/* Third Section */}

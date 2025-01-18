@@ -10,7 +10,7 @@ const Landing = () => {
     return (
         <>
         <div>
-            <div className="bg-[#13131B] px-[70px] lg:px-[128px]">
+            <div className="bg-[#13131B] px-[70px] lg:px-[128px] overflow-hidden">
                 <Header/>
                 <Dashboard/>
                 <Works/>
@@ -20,7 +20,6 @@ const Landing = () => {
             </div>
             <Footer/>
         </div>
-            {/* <LandingForm disableSubmit={false} /> */}
         </>
     )
 }

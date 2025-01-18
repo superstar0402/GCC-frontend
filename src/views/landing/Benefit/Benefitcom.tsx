@@ -37,15 +37,17 @@ const Benefitcom = ({ item }: any) => {
                 </div>
 
                 {/* Vertical line (hidden on small screens) */}
-                <div className="w-[1%] md:flex flex-col items-center justify-center hidden mx-auto">
-                    <div className="w-[12px] h-[12px] rounded-full bg-[#FFFFFF]"></div>
-                    <div className="w-[2px] h-[202px] bg-[#FFFFFF]"></div>
-                    <div className="w-[12px] h-[12px] rounded-full bg-[#FFFFFF]"></div>
+                <div className="w-[1%]  md:flex flex-col items-center justify-center hidden mx-auto ">
+               
+                        <div className="w-[12px] h-[12px] rounded-full bg-[#FFFFFF]"></div>
+                        <div className="w-[2px] h-[202px] xl:h-[300px] bg-[#FFFFFF]"></div>
+                        <div className="w-[12px] h-[12px] rounded-full bg-[#FFFFFF]"></div>
+              
                 </div>
 
                 {/* Image part */}
                 <div className="w-[80%] md:w-[47%] my-auto mx-auto">
-                    <img src={item.img} alt={item.title} className="w-full"/>
+                    <img src={item.img} alt={item.title} className="w-full" />
                 </div>
             </div>
         </>

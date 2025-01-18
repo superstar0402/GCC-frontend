@@ -57,12 +57,9 @@ const Feedback = () => {
 
     const next = () => setCurrentIndex((prevIndex) => (prevIndex + 1) % ContentList.length);
     const preview = () => setCurrentIndex((prevIndex) => (prevIndex - 1 + ContentList.length) % ContentList.length);
-    const goToSlide = (index: number) => {
-        setCurrentIndex(index)
-    }
 
     const displayedItems = ContentList.slice(currentIndex, currentIndex + width).concat(
-        ContentList.slice(0, Math.max(0, (currentIndex + width) - ContentList.length))
+      ContentList.slice(0, Math.max(0, (currentIndex + width) - ContentList.length))
     );
 
     return (
@@ -70,14 +67,11 @@ const Feedback = () => {
             <p className="text-[30px] sm:text-[40px] pt-[120px] font-[Geist] text-[#FFFFFF] font-bold flex justify-center pb-[120px]">
                 <span>What Our Clients <span className="text-[#1C4CF6]">Say</span></span>
             </p>
-            <div className="relative ">
-                <div
-                    className="flex gap-[2%] pb-[68px]"
-                >
+            <div className="relative">
+                <div className="flex gap-[2%] pb-[68px]">
                     {displayedItems.map((item, index) => (
-                        <Feedcom item={item} />
+                        <Feedcom item={item}/>
                     ))}
-
                 </div>
                 <button onClick={preview} className="absolute top-[138px] left-[-80px] bg-[#FFFFFF0D] text-white p-[24px] rounded-full">
                     <img src="./public/img/landing/vector.svg" alt="Previous" />
@@ -86,22 +80,10 @@ const Feedback = () => {
                     <img src="./public/img/landing/vector1.svg" alt="Next" />
                 </button>
             </div>
-            <div className="flex justify-center gap-2 mt-8">
-                {ContentList.map((_, index) => (
-                    <button
-                        key={index}
-                        onClick={() => goToSlide(index)}
-                        className={`h-2 transition-all ${currentIndex === index
-                            ? 'w-6 bg-blue-500'
-                            : 'w-2 bg-gray-600'
-                            } rounded-full`}
-                        aria-label={`Go to slide ${index + 1}`}
-                    />
-                ))}
-            </div>
         </div>
     );
 };
 
 export default Feedback;
+
 
