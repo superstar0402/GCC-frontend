@@ -33,7 +33,7 @@ const About = () => {
                         <img
                             src='./public/img/landing/CEO.png'
                             className='w-[213px] h-[260px] pl-[5%] '
-                            alt=''
+                            alt='CEO'
                         />
                         <p className='pt-[16px] pb-[8px]'>Dr. Abdulmohsen Hameed</p>
                         <p className='text-[16px]'>CEO & Founder of GCC Combinator </p>
@@ -44,10 +44,10 @@ const About = () => {
                             As an investor, you have the chance to be part of this transformative journey. Our platform allows you to explore a diverse range of projects, each with the potential to make a significant impact on the healthcare landscape. By investing in these startups, you are not just supporting their growth; you are contributing to a healthier future for all.<br></br>
                             Join us as we embark on this exciting journey to reshape the future of healthcare through innovation and investment. Together, we can make a difference!"</p>
                         <div className='mt-[39px] flex gap-[12px]'>
-                            <img src="./public/img/landing/facebook.png" alt="" />
-                            <img src="./public/img/landing/linkedin.png" alt="" />
-                            <img src="./public/img/landing/youtube.png" alt="" />
-                            <img src="./public/img/landing/twitter.png" alt="" />
+                            <img src="./public/img/landing/facebook.png" alt="facebook" />
+                            <img src="./public/img/landing/linkedin.png" alt="linkedin" />
+                            <img src="./public/img/landing/youtube.png" alt="youtube" />
+                            <img src="./public/img/landing/twitter.png" alt="twitter" />
                         </div>
                     </div>
                 </div>
