@@ -10,7 +10,7 @@ const Feedcom = ({ item }: any, {key}: any) => {
                         <p className="text-[#FFFFFF] text-[16px] font-[Geist] opacity-70">{item.role}</p>
                     </div>
                 </div>
-                <img src="./public/img/landing/star.png" className="py-[16px]" alt="" />
+                <img src="/img/landing/star.png" className="py-[16px]" alt="" />
                 <div className="xl:text-[16px] italic text-[#FFFFFF] "> {/* Added overflow-hidden */}
                     {item.text}
                 </div>

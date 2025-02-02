@@ -80,10 +80,10 @@ const Feedback = () => {
 
                 </div>
                 <button onClick={preview} className="absolute top-[138px] left-[-80px] bg-[#FFFFFF0D] text-white p-[24px] rounded-full">
-                    <img src="./public/img/landing/vector.svg" alt="Previous" />
+                    <img src="/img/landing/vector.svg" alt="Previous" />
                 </button>
                 <button onClick={next} className="absolute top-[138px] right-[-80px] bg-[#FFFFFF0D] text-white p-[24px] rounded-full">
-                    <img src="./public/img/landing/vector1.svg" alt="Next" />
+                    <img src="/img/landing/vector1.svg" alt="Next" />
                 </button>
             </div>
             <div className="flex justify-center gap-2 mt-8">

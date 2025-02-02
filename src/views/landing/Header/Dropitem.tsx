@@ -47,7 +47,7 @@ const Dropitem = () => {
                     >
                         <div className='header-action-item flex items-center gap-2'>
                             <span className='avatar avatar-circle w-[32px] h-[32px] min-w-[20px] leading-[32px] text-[12px]'>
-                                <img src="./public/img/landing/setting.svg" className='w-[32px]' alt="setting" />
+                                <img src="/img/landing/setting.svg" className='w-[32px]' alt="setting" />
                             </span>
                         </div>
                     </div>

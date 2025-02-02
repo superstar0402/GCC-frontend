@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="w-full sm:w-[30%] pb-[70px] sm:pb-[0px] justify-center items-center ">
                         <div className="">
                             <img
-                                src="./public/img/landing/GCC.png"
+                                src="/img/landing/GCC.png"
                                 className="w-[112px]  mx-auto sm:mx-0  "
                                 alt=""
                             />
@@ -37,21 +37,21 @@ const Footer = () => {
                         <p className="text-[16px] font-[Geist] text-[#FFFFFF] pb-[32px]">Contact Us</p>
                         <div className="pb-[24px] flex items-center gap-[12px] justify-center sm:justify-start">
                             <img
-                                src="./public/img/landing/message.svg"
+                                src="/img/landing/message.svg"
                                 alt=""
                             />
                             <p className="text-[16px] text-[#FFFFFF] font-[Geist]">support.gcc@example.com</p>
                         </div>
                         <div className="pb-[24px] flex items-center gap-[12px] justify-center sm:justify-start">
                             <img
-                                src="./public/img/landing/phone.svg"
+                                src="/img/landing/phone.svg"
                                 alt=""
                             />
                             <p className="text-[16px] text-[#FFFFFF] font-[Geist]">+1 (234) 567 8900</p>
                         </div>
                         <div className="flex items-center gap-[12px] justify-center sm:justify-start">
                             <img
-                                src="./public/img/landing/telegram.svg"
+                                src="/img/landing/telegram.svg"
                                 alt=""
                             />
                             <p className="text-[16px] text-[#FFFFFF] font-[Geist]">https://t.me/gcc</p>
@@ -68,10 +68,10 @@ const Footer = () => {
                     <div className="flex gap-6 pt-8 lg:pt-0">
                         <p className="flex justify-center items-center font-Poppins text-16 text-white">Follow Us</p>
                         <div className="flex gap-3">
-                            <img src="./public/img/landing/facebook.png" alt="" />
-                            <img src="./public/img/landing/linkedin.png" alt="" />
-                            <img src="./public/img/landing/youtube.png" alt="" />
-                            <img src="./public/img/landing/twitter.png" alt="" />
+                            <img src="/img/landing/facebook.png" alt="" />
+                            <img src="/img/landing/linkedin.png" alt="" />
+                            <img src="/img/landing/youtube.png" alt="" />
+                            <img src="/img/landing/twitter.png" alt="" />
                         </div>
                     </div>
                 </div>

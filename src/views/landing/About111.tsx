@@ -37,7 +37,7 @@ const About = () => {
                 <div className=' w-full'>
                     <div className=' font-[Geist] text-[#FFFFFF] w-full text-[16px] font-[Inter] italic flex gap-[5%] justify-center items-center'>                     
                         <div className='w-[30%] '>
-                          <img src='./public/img/landing/CEO.jpg' className='w-[20%]' alt=''/>
+                          <img src='/img/landing/CEO.jpg' className='w-[20%]' alt=''/>
                         </div>
                         <div className='w-[70%]'>
                           <p className=''>"Welcome to GCC Combinator! I am thrilled to introduce you to our platform, where we harness the power of blockchain technology to revolutionize the way medical startups connect with investors.<br></br>
@@ -53,10 +53,10 @@ const About = () => {
                         </div>
                         <div className='mt-[39px] w-[70%] flex gap-[12px]'>
 
-                               <img src="./public/img/landing/facebook.png" className='w-[36px] h-[36px]' alt="" />
-                               <img src="./public/img/landing/linkedin.png" className='w-[36px] h-[36px]' alt="" />
-                               <img src="./public/img/landing/youtebu.png"  className='w-[36px] h-[36px]' alt="" />
-                               <img src="./public/img/landing/twitter.png"  className='w-[36px] h-[36px]' alt="" />
+                               <img src="/img/landing/facebook.png" className='w-[36px] h-[36px]' alt="" />
+                               <img src="/img/landing/linkedin.png" className='w-[36px] h-[36px]' alt="" />
+                               <img src="/img/landing/youtebu.png"  className='w-[36px] h-[36px]' alt="" />
+                               <img src="/img/landing/twitter.png"  className='w-[36px] h-[36px]' alt="" />
                             
                         </div>
                     </div>

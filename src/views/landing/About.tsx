@@ -31,7 +31,7 @@ const About = () => {
                 <div className=' flex flex-col lg:flex-row gap-[5%] w-full'>
                     <div className='w-[100%] lg:w-[25%] font-[Geist] text-[#FFFFFF] font-bold text-[20px]  flex flex-col justify-center items-center pb-[30px] lg:pb-[0px]'>
                         <img
-                            src='./public/img/landing/CEO.png'
+                            src='/img/landing/CEO.png'
                             className='w-[213px] h-[260px] pl-[5%] '
                             alt='CEO'
                         />
@@ -44,10 +44,10 @@ const About = () => {
                             As an investor, you have the chance to be part of this transformative journey. Our platform allows you to explore a diverse range of projects, each with the potential to make a significant impact on the healthcare landscape. By investing in these startups, you are not just supporting their growth; you are contributing to a healthier future for all.<br></br>
                             Join us as we embark on this exciting journey to reshape the future of healthcare through innovation and investment. Together, we can make a difference!"</p>
                         <div className='mt-[39px] flex gap-[12px]'>
-                            <img src="./public/img/landing/facebook.png" alt="facebook" />
-                            <img src="./public/img/landing/linkedin.png" alt="linkedin" />
-                            <img src="./public/img/landing/youtube.png" alt="youtube" />
-                            <img src="./public/img/landing/twitter.png" alt="twitter" />
+                            <img src="/img/landing/facebook.png" alt="facebook" />
+                            <img src="/img/landing/linkedin.png" alt="linkedin" />
+                            <img src="/img/landing/youtube.png" alt="youtube" />
+                            <img src="/img/landing/twitter.png" alt="twitter" />
                         </div>
                     </div>
                 </div>
