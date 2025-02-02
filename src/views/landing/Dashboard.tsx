@@ -17,7 +17,7 @@ const Dashboard = () => {
                     </div>
                     <div className=" flex items-center justify-center w-[100%] lg:w-[50%] mt-[50px] lg:mt-[-60px]  ">
                         <div className='w-[70%]  lg:w-[100%]'>
-                            <img src="./public/img/landing/dashboard.png" className='mx-auto' alt="dashboard"
+                            <img src="/img/landing/dashboard.png" className='mx-auto' alt="dashboard"
                             />
                         </div>
 
@@ -28,22 +28,22 @@ const Dashboard = () => {
                 <div className='flex flex-col lg:flex-row  justify-center gap-[15%] mt-[120px] w-[100%] px-[30px] pb-[60px] '>
                     <div className=' w-[100%] lg:w-[50%] gap-[20%] flex justify-center items-center'>
                         <img
-                            src="./public/img/landing/binance.png"
+                            src="/img/landing/binance.png"
                             className='w-[35%]  '
                             alt='binance'
                         />
                         <img
-                            src="./public/img/landing/novartis.png"
+                            src="/img/landing/novartis.png"
                             className='w-[35%]'
                             alt='novartis' />
                     </div>
                     <div className='w-[100%] pt-[80px] lg:pt-[0px] lg:w-[50%] gap-[20%] flex justify-center items-center'>
                         <img
-                            src="./public/img/landing/alphabet.png"
+                            src="/img/landing/alphabet.png"
                             className='w-[25%] '
                             alt='alphabet' />
                         <img
-                            src="./public/img/landing/medtronic.png"
+                            src="/img/landing/medtronic.png"
                             className='w-[25%] '
                             alt='medtronic' />
                     </div>
