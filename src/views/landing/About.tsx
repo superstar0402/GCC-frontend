@@ -31,11 +31,11 @@ const About = () => {
                 <div className=' flex flex-col lg:flex-row gap-[5%] w-full'>
                     <div className='w-[100%] lg:w-[25%] font-[Geist] text-[#FFFFFF] font-bold text-[20px]  flex flex-col justify-center items-center pb-[30px] lg:pb-[0px]'>
                         <img
-                            src='/img/landing/CEO.png'
+                            src='/img/landing/CEO2.png'
                             className='w-[213px] h-[260px] pl-[5%] '
                             alt='CEO'
                         />
-                        <p className='pt-[16px] pb-[8px]'>Dr. Abdulmohsen Hameed</p>
+                        <p className='pt-[16px] pb-[8px]'>Lorem ipsum dolor sit amet</p>
                         <p className='text-[16px]'>CEO & Founder of GCC Combinator </p>
                     </div>
                     <div className=' w-[100%] lg:w-[75%] font-[Geist] font-bold italic text-[16px] text-[#FFFFFF]'>
